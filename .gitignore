@@ -17,7 +17,8 @@ develop-eggs
 pip-log.txt
 
 # Unit test / coverage reports
-.coverage
+htmlcov
+.coverage*
 .tox
 
 #Translations
@@ -28,3 +29,17 @@ pip-log.txt
 
 .DS_Store
 .idea
+tags
+
+#Emacs
+.#*
+venv/
+
+# VS-code
+.vscode/
+
+# Pycharm
+.idea
+
+#ss
+config.json
